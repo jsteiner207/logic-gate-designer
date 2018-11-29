@@ -22,17 +22,17 @@
 
     </div>
     <div class="sidenav">
-        <img src="not.png" alt"/>
-        <img src="and.png" alt">
-        <img src="nand.png" alt">
-        <img src="or.png" alt">
-        <img src="nor.png" alt">
-        <img src="xor.png" alt">
-        <img src="xnor.png" alt">
+        <img src="not.png" onclick="AddNOT()"/>
+        <img src="and.png" onclick="AddAND()">
+        <img src="nand.png" onclick="AddNAND()">
+        <img src="or.png" onclick="AddOR()">
+        <img src="nor.png" onclick="AddNOR()">
+        <img src="xor.png" onclick="AddXOR()">
+        <img src="xnor.png"onclick="AddXNOR()">
     </div>
 
     </div>
-    <canvas id="scene" class="workbench"></canvas>
+    <div id="scene" class="workbench"></div>
 
     <Table class="Table">
         <tr>
@@ -64,5 +64,7 @@
         </Table>
     </div>
 
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="script.js"> </script>
 </body>
