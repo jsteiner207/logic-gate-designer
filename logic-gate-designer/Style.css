@@ -40,5 +40,8 @@
     top: 746px;    
 }
 
+.movable{
+    cursor: move;
+}
 .Table th {
 }

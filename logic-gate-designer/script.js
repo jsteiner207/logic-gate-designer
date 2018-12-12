@@ -8,12 +8,26 @@
 // }
 
 // ctx.stroke();
+/////////////////////////////////////////////////////////////////////////////
+
+
+$(document).ready(function(){
+    $(".movable").draggable();
+});
+
+
+
+
+
+var gates = []
+
 
 
 function AddNOT(){
-    $("#scene").append('<img src="not.png" alt">');
-}
+    $("#scene").append('<div id="not3" class="movable ui-draggable ui-draggable-handle" style="position: relative;"><img src="not.png"></div>');
 
+}
+ 
 function AddAND(){
     $("#scene").append('<img src="and.png" alt">');
 }
